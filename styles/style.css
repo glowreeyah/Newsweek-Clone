@@ -322,11 +322,15 @@ header,
   background-color: #f4f5f6;
 }
 
-.letter {
-  margin: 30px auto 30px;
+.letter,
+.sponsored {
+  margin: 30px auto 10px;
   max-width: 300px;
-  border: 1px solid #e5e5e5;
   padding: 20px;
+}
+
+.letter {
+  border: 1px solid #e5e5e5;
 }
 
 .newsicon {
@@ -357,8 +361,33 @@ header,
 }
 
 .signup button {
-    width: 10px;
-    margin-bottom: 10px;
+  width: 10px;
+  margin-bottom: 10px;
+}
+
+.insight {
+  padding-top: 25px;
+}
+
+.insights .wrap .category {
+  color: #3581f4;
+}
+
+.insight-border {
+  border: 1px solid #e5e5e5;
+  padding: 10px 5px;
+}
+
+.insights h3 {
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.insights .summary {
+  padding-top: 0;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 @media (min-width: 992px) {
@@ -374,6 +403,10 @@ header,
   .signup .letter {
     width: 100%;
     max-width: 300px;
+  }
+
+  .insights {
+    width: 100%;
   }
 }
 
