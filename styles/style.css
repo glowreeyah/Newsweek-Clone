@@ -13,6 +13,10 @@ body {
   overflow-x: hidden;
 }
 
+main > * {
+  padding-top: 20px;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -231,9 +235,9 @@ header,
   top: 0;
 }
 
-.insights {
+.insights .sponsor {
   position: sticky;
-  top: -590px;
+  top: -990px;
 }
 
 .morestory picture {
@@ -401,6 +405,64 @@ header,
   padding-top: 0;
   padding-right: 1rem;
   padding-left: 1rem;
+}
+
+.in-head-container {
+  border-bottom: 1px solid #d9d9d9;
+  padding: 10px 0;
+  margin: 10px auto;
+}
+
+.in-head {
+  margin: 0 5px;
+}
+
+.in-icon {
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
+  width: 29px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+.in-magazine h3 {
+    font-size: 16px;
+}
+
+.editor .row .summary {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+article .my-1 {
+    line-height: 20px;
+    color: #000;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.magazine .wrap {
+    height: 77%;
+}
+
+.magazine .wrap img {
+    width: 150%;
+    padding-top: 20px;
+    position: relative;
+    margin-left: -60px;
+}
+
+.magazine .mag-cat {
+    background-color: #f72210;
+    font-size: 13px;
+    color: #fff;
+}
+
+.cat {
+    color: #f72210;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 @media (min-width: 992px) {
