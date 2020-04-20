@@ -26,6 +26,11 @@ header {
   background-color: #f72210;
 }
 
+.subscribe svg {
+  width: 8px;
+  margin-left: 10px;
+}
+
 header .logo svg {
   fill: #fff;
 }
@@ -91,11 +96,6 @@ header,
 
 .fullnavone {
   min-width: 350px;
-}
-
-.subscribe svg {
-  width: 8px;
-  margin-left: 10px;
 }
 
 footer .nwlogo svg {
