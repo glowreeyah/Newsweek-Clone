@@ -26,6 +26,16 @@ header {
   background-color: #f72210;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.first {
+  border: 0;
+  font-weight: bold;
+}
+
 footer ul li a,
 footer nav ul .first {
   color: #666;
@@ -39,11 +49,6 @@ picture {
   display: block;
   position: relative;
   overflow: hidden;
-}
-
-a {
-  color: #000;
-  text-decoration: none;
 }
 
 h1,
@@ -84,6 +89,19 @@ header,
   min-width: 350px;
 }
 
+.subscribe svg {
+  width: 8px;
+  margin-left: 10px;
+}
+
+footer .nwlogo svg {
+  width: 236px;
+  height: 36px;
+  fill: #f72210;
+  margin-right: 15px;
+  margin-bottom: 12px;
+}
+
 .fullnavone .logo svg {
   width: 132px;
   color: #fff;
@@ -113,11 +131,6 @@ header,
 
 .subscribe {
   color: #f72210;
-}
-
-.subscribe svg {
-  width: 8px;
-  margin-left: 10px;
 }
 
 .signin,
@@ -165,6 +178,19 @@ header,
   padding-left: 5px;
 }
 
+.bywho img {
+  position: absolute;
+  top: -15px;
+  right: 5px;
+  width: 63px;
+  height: 63px;
+}
+
+.opinion img {
+  height: 63px;
+  width: 63px;
+}
+
 .white ul img {
   width: 18px;
 }
@@ -179,13 +205,7 @@ header,
 
 .topcurve .bottomcurve {
   width: 13px;
-  background: linear-gradient(
-    to top right,
-    white,
-    white 50%,
-    #f72210 50%,
-    #f72210
-  );
+  background: linear-gradient(to top right, white, white 50%, #f72210 50%, #f72210);
 }
 
 .first-part {
@@ -261,11 +281,6 @@ header,
   font-weight: 700;
 }
 
-.opinion img {
-  height: 63px;
-  width: 63px;
-}
-
 .story2 {
   font-size: 15px;
   font-weight: 700;
@@ -306,14 +321,6 @@ header,
 .bywho {
   position: relative;
   margin-bottom: 1rem;
-}
-
-.bywho img {
-  position: absolute;
-  top: -15px;
-  right: 5px;
-  width: 63px;
-  height: 63px;
 }
 
 .debate-divide {
@@ -357,8 +364,7 @@ header,
   display: block;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
-    no-repeat #f72210;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
   margin-left: 25px;
   margin-right: 10px;
 }
@@ -484,7 +490,7 @@ article .my-1 {
 }
 
 .text {
-  font-family: roboto condensed, serif;
+  font-family: "Roboto condensed", serif;
   font-size: 16px;
   font-weight: 700;
   color: #f72210;
@@ -515,14 +521,9 @@ article .my-1 {
 }
 
 .phone-img {
-  background-color: rgba(0, 0, 0, 0);
   background-position-x: center;
   background-position-y: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background: rgba(0, 0, 0, 0)
-    url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
-    no-repeat scroll center center/cover;
+  background: rgba(0, 0, 0, 0) url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center center/cover;
   background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
   background-size: cover;
   background-origin: padding-box;
@@ -539,14 +540,6 @@ article .my-1 {
   padding-bottom: 0;
 }
 
-footer .nwlogo svg {
-  width: 236px;
-  height: 36px;
-  fill: #f72210;
-  margin-right: 15px;
-  margin-bottom: 12px;
-}
-
 footer .copyright {
   font-size: 12px;
   line-height: 12px;
@@ -556,11 +549,6 @@ footer .copyright {
 
 .bottom-icons {
   color: #666;
-}
-
-.first {
-  border: 0;
-  font-weight: bold;
 }
 
 .last-footer {
