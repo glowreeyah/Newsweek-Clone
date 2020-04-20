@@ -66,7 +66,7 @@ This project is a built "from-scratch" replica of the news site Newsweek.com usi
 
 This is the fifth and coloboration project of the Microverse HTML and CSS Module
 
-This is also the Assignment_1 of the [Odin project curriculum](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
+This is also one of the assignments of the [Odin project curriculum](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
 
 <!-- ABOUT THE PROJECT -->
 ## Installation
