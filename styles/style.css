@@ -26,6 +26,10 @@ header {
   background-color: #f72210;
 }
 
+header .logo svg {
+  fill: #fff;
+}
+
 a {
   color: #000;
   text-decoration: none;
@@ -104,7 +108,7 @@ footer .nwlogo svg {
 
 .fullnavone .logo svg {
   width: 132px;
-  color: #fff;
+  fill: #fff;
 }
 
 .weather,
@@ -509,10 +513,16 @@ article .my-1 {
   margin-bottom: 15px;
 }
 
+.prev {
+  width: 170px;
+  height: 227px;
+}
+
 .current {
   position: absolute;
-  top: 13px;
-  left: 80px;
+  width: 85%;
+  top: 15px;
+  left: 75px;
 }
 
 .weekly-special .story2 {
