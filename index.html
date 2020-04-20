@@ -1,0 +1,1897 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-tofit=no"/>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"/>
+      <link rel="stylesheet" href="styles/style.css"/>
+      <script src="https://kit.fontawesome.com/32efc5f671.js" crossorigin="anonymous"></script>
+      <title>NewsWeek</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid px-0">
+        <div class="row mx-0 fullnavone d-lg-none">
+            <div class="col-auto logo col-lg-order">
+                <svg viewBox="0 0 395.6 60"><g>
+                    <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path></g>
+                </svg> 
+            </div>
+            <div class="col-auto weather">
+                <img src="https://g.newsweek.com/img/weather/33.png" alt="">
+                29°
+            </div>
+            <div class="col-auto px-0 location">
+                Ibadan North West, NG
+                <img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" alt="">
+            </div>
+            <div class="col-auto btn signin ml-auto">SIGN IN</div>
+            <div class="col-auto subscribe btn btn-light">SUBSCRIBE
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 14" style="enable-background: new 0 0 8 14;" xml:space="preserve">
+                    <g>
+                      <defs>
+                        <rect width="8" height="14"></rect>
+                      </defs>
+                      <clipPath>
+                        <use xlink:href="# a_" style="overflow: visible;"></use>
+                      </clipPath>
+                      <g class="st0">
+                        <g>
+                          <polygon class="st1" points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7	"></polygon>
+                        </g>
+                      </g>
+                    </g>
+              </svg>
+            </div>
+            <div class="col-auto btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="row mx-0 fullnavtwo d-none d-lg-flex pl-3">
+          <div class="row pl-1 mr-auto w-25">
+              <div class="col-9">
+                <div class="row">
+                <div class="col-auto weather">
+                  <img src="https://g.newsweek.com/img/weather/33.png" alt="">
+                  29°
+              </div>
+              <div class="col-auto px-0 location">
+                  Ibadan North West, NG
+                  <img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" alt="">
+              </div>
+                </div>
+              </div>
+              <div class="col-9 date">
+              Tue, Apr 15, 2020
+            </div>
+          </div>
+          <div class="col-auto logo col-lg-order pl-3 ml-0">
+            <svg viewBox="0 0 395.6 60">
+              <g>
+                <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+                </path>
+              </g>
+            </svg>
+          </div>
+          <div class="row ml-auto mr-2 w-25">
+            <div class="col-12"></div>
+            <div class="col-12 align-self-end">
+              <div class="row justify-content-end">
+                <div class="col-auto btn signin pt-1">SIGN IN</div>
+                <div class="col-auto subscribe btn btn-light">SUBSCRIBE
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 14" style="enable-background: new 0 0 8 14;" xml:space="preserve">
+                    <g>
+                      <defs>
+                        <rect width="8" height="14"></rect>
+                      </defs>
+                      <clipPath>
+                        <use xlink:href="# a_" style="overflow: visible;"></use>
+                      </clipPath>
+                      <g class="st0">
+                        <g>
+                          <polygon class="st1" points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7	"></polygon>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </header>
+
+    <div class="container-fluid mx-0 px-0 d-none d-lg-block">
+      <div class="row mx-0 fullnavtwo white">
+        <div class="col-11 pt-3 mx-0 pl-2">
+          <nav>
+            <ul class="d-flex justify-content-between">
+              <li class="p-0"><a href="#" class="p-auto">U.S</a></li>
+              <li class="divider"></li>
+              <li class="p-0"><a href="#">World</a></li>
+              <li class="divider"></li>
+              <li class="p-0"><a href="#">Business</a></li>
+              <li class="divider"></li>
+              <li class="p-0"><a href="#">Tech & Science</a></li>
+              <li class="divider"></li>
+              <li class="p-0"><a href="#">Culture</a></li>
+              <li class="divider"></li>
+              <li class="p-0"><a href="#">Newsgeek</a></li>
+              <li class="divider"></li>
+              <li class="p-0"><a href="#">Sports</a></li>
+              <li class="divider"></li>
+              <li class="p-0"><a href="#">Health</a></li>
+              <li class="divider"></li>
+              <li class="p-0"><a href="#">Debate</a></li>
+              <li class="divider"></li>
+              <li class="p-0"><a href="#">Vantage</a></li>
+              <li class="divider"></li>
+              <li class="p-0"><a href="#">Weather</a></li>
+              <li class="p-0 onfocus">
+                <input type="text" placeholder="Search">
+              </li>
+              <li class="p-0">
+                <img src="https://g.newsweek.com/www/images/icon-search-glass.svg" alt=""/>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-1 topcurve">
+          <div class="row">
+            <div class="bottomcurve ml-auto"></div>
+            <div class="col-9"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <main class="container-fluid">
+      <div class="first-part row justify-content-around">
+        <section class="col1 col-md-7 col-lg-6">
+          <h2 class="d-none">n</h2>
+          <article>
+            <h2>TOP STORY</h2>
+            <div class="wrap">
+              <div class="category">
+                <a href="#">NEWS</a>
+              </div>
+              <img src="https://d.newsweek.com/en/full/1581571/coronavirus-covid-19-xi-jinping-china.jpg?w=591&h=364&f=643fd6bd16d3e0473c4ce3e95fcba2f3" alt=""/>
+            </div>
+            <a href="#" class="img-title">
+              <h3>
+                Bush and Obama Let China Control WHO, Increasing Risk of Pandemics
+              </h3>
+            </a>
+            <p>Trump is halting U.S. funding of WHO after previous administrations' "benign neglect" policy allowed Beijing to mislead the organization, with deadly consequences.</p>
+          </article>   
+          <article class="d-none culture d-md-block">
+            <h2>HEROES OF THE PANDEMIC</h2>
+            <div class="row">
+              <div class="heroes heroes1 col-md-4">
+                <div class="wrap">
+                  <div class="category">
+                    <a href="#">Pandemic Heroes</a>
+                  </div>
+                  <img src="https://d.newsweek.com/en/full/1578399/coronavirus-pandemic-heroes-food-nurses-philadelphia.jpg?w=397&h=397&f=df54d52fbce46b666dc3c098564d1f08" alt=""/>
+                </div>
+                <a class="img-title">
+                  <h3>Philly DJ Rallies Friends, Strangers to Feed Nurses and Support Businesses</h3>
+                </a>
+                <p>I want to keep it going as long as we can," Ryan O'Connell told Newsweek.</p>
+              </div>
+              <div class=" heroes heroes2 col-md-4">
+                <div class="wrap">
+                  <div class="category">
+                    <a href="#">Pandemic Heroes</a>
+                  </div>
+                  <img src="https://d.newsweek.com/en/full/1578399/coronavirus-pandemic-heroes-food-nurses-philadelphia.jpg?w=397&h=397&f=df54d52fbce46b666dc3c098564d1f08" alt=""/>
+                </div>
+                <a class="img-title">
+                  <h3>Philly DJ Rallies Friends, Strangers to Feed Nurses and Support Businesses</h3>
+                </a>
+                <p>I want to keep it going as long as we can," Ryan O'Connell told Newsweek.</p>
+              </div>
+              <div class="heroes heroes3 col-md-4">
+                <div class="wrap">
+                  <div class="category">
+                    <a href="#">Pandemic Heroes</a>
+                  </div>
+                  <img src="https://d.newsweek.com/en/full/1578399/coronavirus-pandemic-heroes-food-nurses-philadelphia.jpg?w=397&h=397&f=df54d52fbce46b666dc3c098564d1f08" alt=""/>
+                </div>
+                <a class="img-title">
+                  <h3>Philly DJ Rallies Friends, Strangers to Feed Nurses and Support Businesses</h3>
+                </a>
+                <p>I want to keep it going as long as we can," Ryan O'Connell told Newsweek.</p>
+              </div>
+            </div>
+    
+            <h2>CULTURE AND TRAVEL</h2>
+            <div class="row">
+              <div class="heroes heroes1 col-md-4">
+                <div class="wrap">
+                  <div class="category">
+                    <a href="#">Nature</a>
+                  </div>
+                  <img src="https://d.newsweek.com/en/full/1579421/cul-uncharted-nature-02.jpg?w=397&h=397&f=4b429d9dd20904ac5f4d4d873d71791a" alt=""/>
+                </div>
+                <a class="img-title">
+                  <h3>Marvel at These 10 Freaks of Nature</h3>
+                </a>
+                <p>The world is filled with unique, breathtaking natural wonders—from boiling craters to caves full of luminescent glowworms. These 10 sites are a great place to start when looking for hope in some of Mother Nature's greatest offerings.</p>
+              </div>
+              <div class=" heroes heroes2 col-md-4">
+                <div class="wrap">
+                  <div class="category">
+                    <a href="#">Nature</a>
+                  </div>
+                  <img src="https://d.newsweek.com/en/full/1579421/cul-uncharted-nature-02.jpg?w=397&h=397&f=4b429d9dd20904ac5f4d4d873d71791a" alt=""/>
+                </div>
+                <a class="img-title">
+                  <h3>Marvel at These 10 Freaks of Nature</h3>
+                </a>
+                <p>The world is filled with unique, breathtaking natural wonders—from boiling craters to caves full of luminescent glowworms. These 10 sites are a great place to start when looking for hope in some of Mother Nature's greatest offerings.</p>
+              </div>
+              <div class="heroes heroes3 col-md-4">
+                <div class="wrap">
+                  <div class="category">
+                    <a href="#">Nature</a>
+                  </div>
+                  <img src="https://d.newsweek.com/en/full/1579421/cul-uncharted-nature-02.jpg?w=397&h=397&f=4b429d9dd20904ac5f4d4d873d71791a" alt=""/>
+                </div>
+                <a class="img-title">
+                  <h3>Marvel at These 10 Freaks of Nature</h3>
+                </a>
+                <p>The world is filled with unique, breathtaking natural wonders—from boiling craters to caves full of luminescent glowworms. These 10 sites are a great place to start when looking for hope in some of Mother Nature's greatest offerings.</p>
+              </div>
+            </div>
+          </article>
+          <article class="d-none d-md-block more-stories">
+            <h2>MORE STORIES</h2>
+            <div class="container-fluid">
+              <div class="storydivider"></div>
+              <div class="row col morestory">
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1581691/boston-teammates-statue-masks-coronavirus-april-2020.jpg?w=95&h=95&f=2ebb08bec6402b16aaa9015da03774e7" class="mr-3" alt="Bostpon teammates"/>
+                </picture>
+                <div class="story1">
+                  <h5 class="mt-0">
+                    <a href="#">U.S. Has Nearly a Third of the World's Coronavirus Cases</a>
+                  </h5>
+                  <p>The U.S. has reported almost three times as many COVID-19 cases as there are in Spain and Italy, which each have around 170,000 confirmed infections.</p>
+                </div>
+              </div>
+              <div class="storydivider"></div>
+              <div class="row col morestory">
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1581684/ron-desantis.jpg?w=95&h=95&f=db6720bce8dbaf92041ab593a9e32ef4" class="mr-3" alt=""/>
+                </picture>
+                <div class="story1">
+                  <h5 class="mt-0">
+                    <a href="#">Florida Gov to Announce 'Stage Two' Coronavirus Response Task Force Team</a>
+                  </h5>
+                  <p>Ron DeSantis has previously been criticized for his slow response to the outbreak in the state.</p>
+                </div>
+              </div>
+              <div class="storydivider"></div>
+              <div class="row col morestory">
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1581691/boston-teammates-statue-masks-coronavirus-april-2020.jpg?w=95&h=95&f=2ebb08bec6402b16aaa9015da03774e7" class="mr-3" alt="Bostpon teammates"/>
+                </picture>
+                <div class="story1">
+                  <h5 class="mt-0">
+                    <a href="#">U.S. Has Nearly a Third of the World's Coronavirus Cases</a>
+                  </h5>
+                  <p>The U.S. has reported almost three times as many COVID-19 cases as there are in Spain and Italy, which each have around 170,000 confirmed infections.</p>
+                </div>
+              </div>
+              <div class="storydivider"></div>
+              <div class="row col morestory">
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1581684/ron-desantis.jpg?w=95&h=95&f=db6720bce8dbaf92041ab593a9e32ef4" class="mr-3" alt=""/>
+                </picture>
+                <div class="story1">
+                  <h5 class="mt-0">
+                    <a href="#">Florida Gov to Announce 'Stage Two' Coronavirus Response Task Force Team</a>
+                  </h5>
+                  <p>Ron DeSantis has previously been criticized for his slow response to the outbreak in the state.</p>
+                </div>
+              </div>
+              <div class="storydivider"></div>
+              <div class="row col morestory">
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1581691/boston-teammates-statue-masks-coronavirus-april-2020.jpg?w=95&h=95&f=2ebb08bec6402b16aaa9015da03774e7" class="mr-3" alt="Bostpon teammates"/>
+                </picture>
+                <div class="story1">
+                  <h5 class="mt-0">
+                    <a href="#">U.S. Has Nearly a Third of the World's Coronavirus Cases</a>
+                  </h5>
+                  <p>The U.S. has reported almost three times as many COVID-19 cases as there are in Spain and Italy, which each have around 170,000 confirmed infections.</p>
+                </div>
+              </div>
+              <div class="storydivider"></div>
+              <div class="row col morestory">
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1581684/ron-desantis.jpg?w=95&h=95&f=db6720bce8dbaf92041ab593a9e32ef4" class="mr-3" alt=""/>
+                </picture>
+                <div class="story1">
+                  <h5 class="mt-0">
+                    <a href="#">Florida Gov to Announce 'Stage Two' Coronavirus Response Task Force Team</a>
+                  </h5>
+                  <p>Ron DeSantis has previously been criticized for his slow response to the outbreak in the state.</p>
+                </div>
+              </div>
+              <div class="storydivider"></div>
+              <div class="row col morestory">
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1581691/boston-teammates-statue-masks-coronavirus-april-2020.jpg?w=95&h=95&f=2ebb08bec6402b16aaa9015da03774e7" class="mr-3" alt="Bostpon teammates"/>
+                </picture>
+                <div class="story1">
+                  <h5 class="mt-0">
+                    <a href="#">U.S. Has Nearly a Third of the World's Coronavirus Cases</a>
+                  </h5>
+                  <p>The U.S. has reported almost three times as many COVID-19 cases as there are in Spain and Italy, which each have around 170,000 confirmed infections.</p>
+                </div>
+              </div>
+              <div class="storydivider"></div>
+              <div class="row col morestory">
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1581684/ron-desantis.jpg?w=95&h=95&f=db6720bce8dbaf92041ab593a9e32ef4" class="mr-3" alt=""/>
+                </picture>
+                <div class="story1">
+                  <h5 class="mt-0">
+                    <a href="#">U.S. Has Nearly a Third of the World's Coronavirus Cases</a>
+                  </h5>
+                  <p>The U.S. has reported almost three times as many COVID-19 cases as there are in Spain and Italy, which each have around 170,000 confirmed infections.</p>
+                </div>
+              </div>
+              <div class="storydivider"></div>
+              <div class="row col morestory">
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1581691/boston-teammates-statue-masks-coronavirus-april-2020.jpg?w=95&h=95&f=2ebb08bec6402b16aaa9015da03774e7" class="mr-3" alt="Bostpon teammates"/>
+                </picture>
+                <div class="story1">
+                  <h5 class="mt-0">
+                    <a href="#">U.S. Has Nearly a Third of the World's Coronavirus Cases</a>
+                  </h5>
+                  <p>The U.S. has reported almost three times as many COVID-19 cases as there are in Spain and Italy, which each have around 170,000 confirmed infections.</p>
+                </div>
+              </div>
+              <div class="storydivider"></div>
+              <div class="row col morestory">
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1581684/ron-desantis.jpg?w=95&h=95&f=db6720bce8dbaf92041ab593a9e32ef4" class="mr-3" alt=""/>
+                </picture>
+                <div class="story1">
+                  <h5 class="mt-0">
+                    <a href="#">U.S. Has Nearly a Third of the World's Coronavirus Cases</a>
+                  </h5>
+                  <p>The U.S. has reported almost three times as many COVID-19 cases as there are in Spain and Italy, which each have around 170,000 confirmed infections.</p>
+                </div>
+              </div>
+            </div>
+          </article>       
+        </section>
+        <section class="col2 col-md-5 col-lg-3 order-md-first">
+          <h2 class="d-none">n</h2>
+          <article class="featured">
+            <h2>FEATURED STORIES</h2>
+           <div class="featured1">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">HEALTH</a>
+              </div>
+              <div>
+                <a href="#">
+                  <picture>
+                    <img src="https://d.newsweek.com/en/full/1581426/covid19-coronavirus-getty.jpg?w=397&h=265&q=90&f=afe9b959cbad77f2f50f8008b65a120d" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <h3 class="mb-1">
+              <a href="#">First 'Significant' Coronavirus Mutation Discovered in Preliminary Study</a>
+            </h3>
+            <div class="summary mt-0 pt-3">
+              Experts explained to Newsweek why this doesn't jeopardize efforts to create a vaccine to prevent COVID-19.
+            </div>
+           </div>
+           <div class="featured2">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">WORLD</a>
+              </div>
+              <div>
+                <a href="#">
+                  <picture>
+                    <img src="https://d.newsweek.com/en/full/1581186/us-army-coronavirus-camp-carroll-south-korea.jpg?w=397&h=265&q=90&f=fdaf5873a3c0e421ecad8c2cc3dce20c" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <h3 class="mb-1">
+              <a href="#">Late Intel, Slow Pentagon Response Contributed to COVID-19 Outbreak: Docs</a>
+            </h3>
+            <div class="summary mt-0 pt-3">
+              U.S. Intelligence Community detected a new contagious disease was spreading through China in November, but it wasn't until after a U.S. soldier got sick in South Korea that an assessment was issued—one that could have slowed the spread of the disease, Newsweek has learned.
+            </div>
+           </div>
+           <div class="featured3">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">POLITICS</a>
+              </div>
+              <div>
+                <a href="#">
+                  <picture>
+                    <img src="https://d.newsweek.com/en/full/1581687/world-health-organization-funding-coronavirus-donald-trump.jpg?w=397&h=265&q=90&f=73f31ea274f5ca8946e375069c215eb1" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <h3 class="mb-1">
+              <a href="#">Who Funds the World Health Organization? Trump Freeze Means Budget Hole</a>
+            </h3>
+            <div class="summary mt-0 pt-3">
+              President Donald Trump said Tuesday the U.S. would temporarily freeze its contributions to the WHO while investigating alleged mismanagement of the coronavirus pandemic.
+            </div>
+           </div>
+           <div class="featured4">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">POLITICS</a>
+              </div>
+              <div>
+                <a href="#">
+                  <picture>
+                    <img src="https://d.newsweek.com/en/full/1581639/alexandria-ocasio-cortez.jpg?w=397&h=265&q=90&f=4ff751ea80da074648e09fd3128ada35" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <h3 class="mb-1">
+              <a href="#">Alexandria Ocasio-Cortez Wants DNC to Hear Biden's Sexual Assault Accuser</a>
+            </h3>
+            <div class="summary mt-0 pt-3">
+              "I think it's legitimate to talk about these things," Ocasio-Cortez said. "If we again want to have integrity, you can't say, you know, both believe women, support all of this, until it inconveniences you."
+            </div>
+           </div>
+           <div class="featured5">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">US</a>
+              </div>
+              <div>
+                <a href="#">
+                  <picture>
+                    <img src="https://d.newsweek.com/en/full/1581584/democrats-laid-off-workers-health-insurance.jpg?w=397&h=265&q=90&f=528eff7d7e749c63c737a776485a1dca" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <h3 class="mb-1">
+              <a href="#">Laid-off Workers Would Get Health Insurance Help Under Democrats' New Plan</a>
+            </h3>
+            <div class="summary mt-0 pt-3">
+              By offering workers the opportunity and affordability to remain on their employer-based plan by subsidizing COBRA premiums, Democrats said it could avoid coverage gaps or forcing people to change plans or providers amid a pandemic.
+            </div>
+           </div>
+          </article>
+          
+          <article class="insights sponsor">
+            <div class="d-none d-lg-block d-md-block">
+              <div class="insight">
+                <div class="wrap">
+                  <div class="category">
+                    <a href="#">SPONSORED INSIGHT</a>
+                  </div>
+                  <div>
+                    <a href="#">
+                      <picture>
+                        <img src="https://d.newsweek.com/en/full/1580693/university-north-carolina-asheville.jpg?w=500&h=333&f=3ba9545ca2c492633c28f4c6a42fcd53" alt="">
+                      </picture>
+                    </a>
+                  </div>
+                </div>
+                <div class="insight-border">
+                  <h3 class="my-1">
+                    <a href="#">What Sets the Leading Liberal Arts Schools Apart?</a>
+                  </h3>
+                  <div class="summary mt-0 pt-3">
+                    There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?
+                  </div>
+                </div>
+              </div>
+              <div class="insight">
+                <div class="wrap">
+                  <div class="category">
+                    <a href="#">SPONSORED INSIGHT</a>
+                  </div>
+                  <div>
+                    <a href="#">
+                      <picture>
+                        <img src="https://d.newsweek.com/en/full/1580693/university-north-carolina-asheville.jpg?w=500&h=333&f=3ba9545ca2c492633c28f4c6a42fcd53" alt="">
+                      </picture>
+                    </a>
+                  </div>
+                </div>
+                <div class="insight-border">
+                  <h3 class="my-1">
+                    <a href="#">What Sets the Leading Liberal Arts Schools Apart?</a>
+                  </h3>
+                  <div class="summary mt-0 pt-3">
+                    There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?
+                  </div>
+                </div>
+              </div>
+              <div class="insight">
+                <div class="wrap">
+                  <div class="category">
+                    <a href="#">SPONSORED INSIGHT</a>
+                  </div>
+                  <div>
+                    <a href="#">
+                      <picture>
+                        <img src="https://d.newsweek.com/en/full/1580693/university-north-carolina-asheville.jpg?w=500&h=333&f=3ba9545ca2c492633c28f4c6a42fcd53" alt="">
+                      </picture>
+                    </a>
+                  </div>
+                </div>
+                <div class="insight-border">
+                  <h3 class="my-1">
+                    <a href="#">What Sets the Leading Liberal Arts Schools Apart?</a>
+                  </h3>
+                  <div class="summary mt-0 pt-3">
+                    There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="col3 col-lg-3">
+          <h2 class="d-none">n</h2>
+          <article class="opinion">
+            <h2>OPINION</h2>
+            <div class="opinion row m-1">
+              <img src="https://d.newsweek.com/en/full/1581455/michael-blake-nathalie-molina-nino.png?w=63&h=63&f=6c8598f3212602c03b11e77fb3b36c0b" alt="Black"/>
+              <div class="col">
+                <div class="story2">
+                  For Black and Brown Businesses, the Next Relief Bill Could Be a Lifeline—or an Assault
+                </div>
+                <div class="by">
+                  By Michael Blake and Nathalie Molina Niño</div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+            <div class="opinion row m-1">
+              <img src="https://d.newsweek.com/en/full/1581455/michael-blake-nathalie-molina-nino.png?w=63&h=63&f=6c8598f3212602c03b11e77fb3b36c0b" alt="Black"/>
+              <div class="col">
+                <div class="story2">
+                  For Black and Brown Businesses, the Next Relief Bill Could Be a Lifeline—or an Assault
+                </div>
+                <div class="by">
+                  By Michael Blake and Nathalie Molina Niño</div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+            <div class="opinion row m-1">
+              <img src="https://d.newsweek.com/en/full/1581455/michael-blake-nathalie-molina-nino.png?w=63&h=63&f=6c8598f3212602c03b11e77fb3b36c0b" alt="Black"/>
+              <div class="col">
+                <div class="story2">
+                  For Black and Brown Businesses, the Next Relief Bill Could Be a Lifeline—or an Assault
+                </div>
+                <div class="by">
+                  By Michael Blake and Nathalie Molina Niño</div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+            <div class="opinion row m-1">
+              <img src="https://d.newsweek.com/en/full/1581455/michael-blake-nathalie-molina-nino.png?w=63&h=63&f=6c8598f3212602c03b11e77fb3b36c0b" alt="Black"/>
+              <div class="col">
+                <div class="story2">
+                  For Black and Brown Businesses, the Next Relief Bill Could Be a Lifeline—or an Assault
+                </div>
+                <div class="by">
+                  By Michael Blake and Nathalie Molina Niño</div>
+              </div>
+            </div>
+          </article>
+          <article class="debate">
+            <h2 class="col3-head">THE DEBATE</h2>
+            <div class="media pinktop">
+              <a href="#" class="d-flex align-self-bottom">
+                <img src="https://d.newsweek.com/en/full/1580915/store-closing.jpg?w=95&h=95&f=50be58971bf978c7ce2d363c9d9dbfed" alt=""/>
+              </a>
+              <div class="media-body">
+                <div class="debate-text p-1rem">
+                  Trump Is Empowering States—As He Should. Now It's Time to Put America to Work
+                </div>
+              </div>
+            </div>
+            <div class="bywho">
+              <div class="debate-divide"></div>
+              <img src="https://d.newsweek.com/en/full/1581105/kelli-ward.png?w=150&h=150&f=cca3c20a16a40247802a4663952c0987" alt=""/>
+              <div class="debateby">
+                By <span class="debate-text">KELLI WARD</span>
+              </div>
+            </div>
+            <div class="vs">
+              VS
+            </div>
+            <div class="media bluetop">
+              <a href="#" class="d-flex align-self-bottom">
+                <img src="https://d.newsweek.com/en/full/1580781/trump-press-briefing-coronavirus.jpg?w=95&h=95&f=ecb3a6a1bb36aba9feee8a782d2ecd07" alt=""/> 
+              </a>
+              <div class="media-body">
+                <div class="debate-text p-1rem">
+                  Save the Economy but Leave the States to Save Lives? Trump's 'Federalism' Is a Charade
+                </div>
+              </div>
+            </div>
+            <div class="bywho">
+              <div class="debate-divide"></div>
+              <img src="https://d.newsweek.com/en/full/1538932/tom-rogers.png?w=150&h=150&f=8e9a167902e26dab37baa3cb298484c5" alt=""/>
+              <div class="debateby">
+                By <span class="debate-text">TOM ROGERS</span>
+              </div>
+            </div>
+          </article>
+          <article class="latest d-none d-md-block">
+            <h2 class="col3-head">LATEST NEWS</h2>
+            <div class="row">
+              <img src="https://d.newsweek.com/en/full/1581716/china-us-who-funding-freeze-donald-trump.jpg?w=95&h=95&f=78b5be837563c6923ac49d9833d816dd" class="col-auto" alt=""/>
+              <div class="col">
+                <div class="story2">
+                  China Has 'Serious Concerns' Over Trump WHO Funding Freeze
+                </div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+            <div class="row">
+              <img src="https://d.newsweek.com/en/full/1581716/china-us-who-funding-freeze-donald-trump.jpg?w=95&h=95&f=78b5be837563c6923ac49d9833d816dd" class="col-auto" alt=""/>
+              <div class="col">
+                <div class="story2">
+                  China Has 'Serious Concerns' Over Trump WHO Funding Freeze
+                </div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+            <div class="row">
+              <img src="https://d.newsweek.com/en/full/1581716/china-us-who-funding-freeze-donald-trump.jpg?w=95&h=95&f=78b5be837563c6923ac49d9833d816dd" class="col-auto" alt=""/>
+              <div class="col">
+                <div class="story2">
+                  China Has 'Serious Concerns' Over Trump WHO Funding Freeze
+                </div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+            <div class="row">
+              <img src="https://d.newsweek.com/en/full/1581716/china-us-who-funding-freeze-donald-trump.jpg?w=95&h=95&f=78b5be837563c6923ac49d9833d816dd" class="col-auto" alt=""/>
+              <div class="col">
+                <div class="story2">
+                  China Has 'Serious Concerns' Over Trump WHO Funding Freeze
+                </div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+            <div class="row">
+              <img src="https://d.newsweek.com/en/full/1581716/china-us-who-funding-freeze-donald-trump.jpg?w=95&h=95&f=78b5be837563c6923ac49d9833d816dd" class="col-auto" alt=""/>
+              <div class="col">
+                <div class="story2">
+                  China Has 'Serious Concerns' Over Trump WHO Funding Freeze
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="insights">
+            <div class="insight d-none d-md-block">
+              <div class="container sponsored">
+                <div class="row">
+                  <div class="wrap">
+                    <div class="category">
+                      <a href="#">SPONSORED INSIGHT</a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <picture>
+                          <img src="https://d.newsweek.com/en/full/1580693/university-north-carolina-asheville.jpg?w=500&h=333&f=3ba9545ca2c492633c28f4c6a42fcd53" alt="">
+                        </picture>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="insight-border">
+                    <h3 class="mb-1">
+                      <a href="#">What Sets the Leading Liberal Arts Schools Apart?</a>
+                    </h3>
+                    <div class="summary mt-0 pt-3">
+                      There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="signup d-none d-md-block">
+              <div class="container letter">
+                <div class="row">
+                  <div class="newsicon"></div>
+                  <h3 class="sign col-8 pl-1">
+                      SIGN UP OUR NEWSLETTER
+                  </h3>
+                  <button class="btn btn-secondary col-5 offset-1" type="button">
+                    SIGN UP
+                  </button>
+                  <h6 class="update col-11 pl-0 offset-1">Update your prefereces >></h6>
+                </div>
+              </div>
+            </div>
+            <div class="insight d-none d-md-block">
+              <div class="container sponsored">
+                <div class="row">
+                  <div class="wrap">
+                    <div class="category">
+                      <a href="#">SPONSORED INSIGHT</a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <picture>
+                          <img src="https://d.newsweek.com/en/full/1580693/university-north-carolina-asheville.jpg?w=500&h=333&f=3ba9545ca2c492633c28f4c6a42fcd53" alt="">
+                        </picture>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="insight-border">
+                    <h3 class="mb-1">
+                      <a href="#">What Sets the Leading Liberal Arts Schools Apart?</a>
+                    </h3>
+                    <div class="summary mt-0 pt-3">
+                      There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="insight d-none d-md-block">
+              <div class="container sponsored">
+                <div class="row">
+                  <div class="wrap">
+                    <div class="category">
+                      <a href="#">SPONSORED INSIGHT</a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <picture>
+                          <img src="https://d.newsweek.com/en/full/1580693/university-north-carolina-asheville.jpg?w=500&h=333&f=3ba9545ca2c492633c28f4c6a42fcd53" alt="">
+                        </picture>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="insight-border">
+                    <h3 class="mb-1">
+                      <a href="#">What Sets the Leading Liberal Arts Schools Apart?</a>
+                    </h3>
+                    <div class="summary mt-0 pt-3">
+                      There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+      </div>
+      <article class="d-md-none more m-2">
+        <h2>MORE STORIES</h2>
+        <div class="container-fluid">
+          <div class="storydivider"></div>
+          <div class="row col morestory">
+            <picture>
+              <img src="https://d.newsweek.com/en/full/1581691/boston-teammates-statue-masks-coronavirus-april-2020.jpg?w=95&h=95&f=2ebb08bec6402b16aaa9015da03774e7" class="mr-3" alt="Bostpon teammates"/>
+            </picture>
+            <div class="story1">
+              <h5 class="mt-0">
+                <a href="#">U.S. Has Nearly a Third of the World's Coronavirus Cases</a>
+              </h5>
+              <p>The U.S. has reported almost three times as many COVID-19 cases as there are in Spain and Italy, which each have around 170,000 confirmed infections.</p>
+            </div>
+          </div>
+          <div class="storydivider"></div>
+          <div class="row col morestory">
+            <picture>
+              <img src="https://d.newsweek.com/en/full/1581684/ron-desantis.jpg?w=95&h=95&f=db6720bce8dbaf92041ab593a9e32ef4" class="mr-3" alt=""/>
+            </picture>
+            <div class="story1">
+              <h5 class="mt-0">
+                <a href="#">Florida Gov to Announce 'Stage Two' Coronavirus Response Task Force Team</a>
+              </h5>
+              <p>Ron DeSantis has previously been criticized for his slow response to the outbreak in the state.</p>
+            </div>
+          </div>
+          <div class="storydivider"></div>
+          <div class="row col morestory">
+            <picture>
+              <img src="https://d.newsweek.com/en/full/1581691/boston-teammates-statue-masks-coronavirus-april-2020.jpg?w=95&h=95&f=2ebb08bec6402b16aaa9015da03774e7" class="mr-3" alt="Bostpon teammates"/>
+            </picture>
+            <div class="story1">
+              <h5 class="mt-0">
+                <a href="#">U.S. Has Nearly a Third of the World's Coronavirus Cases</a>
+              </h5>
+              <p>The U.S. has reported almost three times as many COVID-19 cases as there are in Spain and Italy, which each have around 170,000 confirmed infections.</p>
+            </div>
+          </div>
+          <div class="storydivider"></div>
+          <div class="row col morestory">
+            <picture>
+              <img src="https://d.newsweek.com/en/full/1581684/ron-desantis.jpg?w=95&h=95&f=db6720bce8dbaf92041ab593a9e32ef4" class="mr-3" alt=""/>
+            </picture>
+            <div class="story1">
+              <h5 class="mt-0">
+                <a href="#">Florida Gov to Announce 'Stage Two' Coronavirus Response Task Force Team</a>
+              </h5>
+              <p>Ron DeSantis has previously been criticized for his slow response to the outbreak in the state.</p>
+            </div>
+          </div>
+          <div class="storydivider"></div>
+          <div class="row col morestory">
+            <picture>
+              <img src="https://d.newsweek.com/en/full/1581691/boston-teammates-statue-masks-coronavirus-april-2020.jpg?w=95&h=95&f=2ebb08bec6402b16aaa9015da03774e7" class="mr-3" alt="Bostpon teammates"/>
+            </picture>
+            <div class="story1">
+              <h5 class="mt-0">
+                <a href="#">U.S. Has Nearly a Third of the World's Coronavirus Cases</a>
+              </h5>
+              <p>The U.S. has reported almost three times as many COVID-19 cases as there are in Spain and Italy, which each have around 170,000 confirmed infections.</p>
+            </div>
+          </div>
+          <div class="storydivider"></div>
+          <div class="row col morestory">
+            <picture>
+              <img src="https://d.newsweek.com/en/full/1581684/ron-desantis.jpg?w=95&h=95&f=db6720bce8dbaf92041ab593a9e32ef4" class="mr-3" alt=""/>
+            </picture>
+            <div class="story1">
+              <h5 class="mt-0">
+                <a href="#">Florida Gov to Announce 'Stage Two' Coronavirus Response Task Force Team</a>
+              </h5>
+              <p>Ron DeSantis has previously been criticized for his slow response to the outbreak in the state.</p>
+            </div>
+          </div>
+          <div class="storydivider"></div>
+          <div class="row col morestory">
+            <picture>
+              <img src="https://d.newsweek.com/en/full/1581691/boston-teammates-statue-masks-coronavirus-april-2020.jpg?w=95&h=95&f=2ebb08bec6402b16aaa9015da03774e7" class="mr-3" alt="Bostpon teammates"/>
+            </picture>
+            <div class="story1">
+              <h5 class="mt-0">
+                <a href="#">U.S. Has Nearly a Third of the World's Coronavirus Cases</a>
+              </h5>
+              <p>The U.S. has reported almost three times as many COVID-19 cases as there are in Spain and Italy, which each have around 170,000 confirmed infections.</p>
+            </div>
+          </div>
+          <div class="storydivider"></div>
+          <div class="row col morestory">
+            <picture>
+              <img src="https://d.newsweek.com/en/full/1581684/ron-desantis.jpg?w=95&h=95&f=db6720bce8dbaf92041ab593a9e32ef4" class="mr-3" alt=""/>
+            </picture>
+            <div class="story1">
+              <h5 class="mt-0">
+                <a href="#">U.S. Has Nearly a Third of the World's Coronavirus Cases</a>
+              </h5>
+              <p>The U.S. has reported almost three times as many COVID-19 cases as there are in Spain and Italy, which each have around 170,000 confirmed infections.</p>
+            </div>
+          </div>
+          <div class="storydivider"></div>
+          <div class="row col morestory">
+            <picture>
+              <img src="https://d.newsweek.com/en/full/1581691/boston-teammates-statue-masks-coronavirus-april-2020.jpg?w=95&h=95&f=2ebb08bec6402b16aaa9015da03774e7" class="mr-3" alt="Bostpon teammates"/>
+            </picture>
+            <div class="story1">
+              <h5 class="mt-0">
+                <a href="#">U.S. Has Nearly a Third of the World's Coronavirus Cases</a>
+              </h5>
+              <p>The U.S. has reported almost three times as many COVID-19 cases as there are in Spain and Italy, which each have around 170,000 confirmed infections.</p>
+            </div>
+          </div>
+          <div class="storydivider"></div>
+          <div class="row col morestory">
+            <picture>
+              <img src="https://d.newsweek.com/en/full/1581684/ron-desantis.jpg?w=95&h=95&f=db6720bce8dbaf92041ab593a9e32ef4" class="mr-3" alt=""/>
+            </picture>
+            <div class="story1">
+              <h5 class="mt-0">
+                <a href="#">U.S. Has Nearly a Third of the World's Coronavirus Cases</a>
+              </h5>
+              <p>The U.S. has reported almost three times as many COVID-19 cases as there are in Spain and Italy, which each have around 170,000 confirmed infections.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="d-md-none culture col-md-6">
+        <h2>HEROES OF THE PANDEMIC</h2>
+        <div class="row">
+          <div class="heroes heroes1 col-md-4">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">Pandemic Heroes</a>
+              </div>
+              <img src="https://d.newsweek.com/en/full/1578399/coronavirus-pandemic-heroes-food-nurses-philadelphia.jpg?w=397&h=397&f=df54d52fbce46b666dc3c098564d1f08" alt=""/>
+            </div>
+            <a class="img-title">
+              <h3>Philly DJ Rallies Friends, Strangers to Feed Nurses and Support Businesses</h3>
+            </a>
+            <p>I want to keep it going as long as we can," Ryan O'Connell told Newsweek.</p>
+          </div>
+          <div class=" heroes heroes2 col-md-4">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">Pandemic Heroes</a>
+              </div>
+              <img src="https://d.newsweek.com/en/full/1578399/coronavirus-pandemic-heroes-food-nurses-philadelphia.jpg?w=397&h=397&f=df54d52fbce46b666dc3c098564d1f08" alt=""/>
+            </div>
+            <a class="img-title">
+              <h3>Philly DJ Rallies Friends, Strangers to Feed Nurses and Support Businesses</h3>
+            </a>
+            <p>I want to keep it going as long as we can," Ryan O'Connell told Newsweek.</p>
+          </div>
+          <div class="heroes heroes3 col-md-4">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">Pandemic Heroes</a>
+              </div>
+              <img src="https://d.newsweek.com/en/full/1578399/coronavirus-pandemic-heroes-food-nurses-philadelphia.jpg?w=397&h=397&f=df54d52fbce46b666dc3c098564d1f08" alt=""/>
+            </div>
+            <a class="img-title">
+              <h3>Philly DJ Rallies Friends, Strangers to Feed Nurses and Support Businesses</h3>
+            </a>
+            <p>I want to keep it going as long as we can," Ryan O'Connell told Newsweek.</p>
+          </div>
+        </div>
+
+        <h2>CULTURE AND TRAVEL</h2>
+        <div class="row">
+          <div class="heroes heroes1 col-md-4">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">Nature</a>
+              </div>
+              <img src="https://d.newsweek.com/en/full/1579421/cul-uncharted-nature-02.jpg?w=397&h=397&f=4b429d9dd20904ac5f4d4d873d71791a" alt=""/>
+            </div>
+            <a class="img-title">
+              <h3>Marvel at These 10 Freaks of Nature</h3>
+            </a>
+            <p>The world is filled with unique, breathtaking natural wonders—from boiling craters to caves full of luminescent glowworms. These 10 sites are a great place to start when looking for hope in some of Mother Nature's greatest offerings.</p>
+          </div>
+          <div class=" heroes heroes2 col-md-4">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">Nature</a>
+              </div>
+              <img src="https://d.newsweek.com/en/full/1579421/cul-uncharted-nature-02.jpg?w=397&h=397&f=4b429d9dd20904ac5f4d4d873d71791a" alt=""/>
+            </div>
+            <a class="img-title">
+              <h3>Marvel at These 10 Freaks of Nature</h3>
+            </a>
+            <p>The world is filled with unique, breathtaking natural wonders—from boiling craters to caves full of luminescent glowworms. These 10 sites are a great place to start when looking for hope in some of Mother Nature's greatest offerings.</p>
+          </div>
+          <div class="heroes heroes3 col-md-4">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">Nature</a>
+              </div>
+              <img src="https://d.newsweek.com/en/full/1579421/cul-uncharted-nature-02.jpg?w=397&h=397&f=4b429d9dd20904ac5f4d4d873d71791a" alt=""/>
+            </div>
+            <a class="img-title">
+              <h3>Marvel at These 10 Freaks of Nature</h3>
+            </a>
+            <p>The world is filled with unique, breathtaking natural wonders—from boiling craters to caves full of luminescent glowworms. These 10 sites are a great place to start when looking for hope in some of Mother Nature's greatest offerings.</p>
+          </div>
+        </div>
+      </article>
+      <article class="latest d-md-none">
+        <h2 class="col3-head">LATEST NEWS</h2>
+        <div class="row">
+          <img src="https://d.newsweek.com/en/full/1581716/china-us-who-funding-freeze-donald-trump.jpg?w=95&h=95&f=78b5be837563c6923ac49d9833d816dd" class="col-auto" alt=""/>
+          <div class="col">
+            <div class="story2">
+              China Has 'Serious Concerns' Over Trump WHO Funding Freeze
+            </div>
+          </div>
+        </div>
+        <div class="storydivider"></div>
+        <div class="row">
+          <img src="https://d.newsweek.com/en/full/1581716/china-us-who-funding-freeze-donald-trump.jpg?w=95&h=95&f=78b5be837563c6923ac49d9833d816dd" class="col-auto" alt=""/>
+          <div class="col">
+            <div class="story2">
+              China Has 'Serious Concerns' Over Trump WHO Funding Freeze
+            </div>
+          </div>
+        </div>
+        <div class="storydivider"></div>
+        <div class="row">
+          <img src="https://d.newsweek.com/en/full/1581716/china-us-who-funding-freeze-donald-trump.jpg?w=95&h=95&f=78b5be837563c6923ac49d9833d816dd" class="col-auto" alt=""/>
+          <div class="col">
+            <div class="story2">
+              China Has 'Serious Concerns' Over Trump WHO Funding Freeze
+            </div>
+          </div>
+        </div>
+        <div class="storydivider"></div>
+        <div class="row">
+          <img src="https://d.newsweek.com/en/full/1581716/china-us-who-funding-freeze-donald-trump.jpg?w=95&h=95&f=78b5be837563c6923ac49d9833d816dd" class="col-auto" alt=""/>
+          <div class="col">
+            <div class="story2">
+              China Has 'Serious Concerns' Over Trump WHO Funding Freeze
+            </div>
+          </div>
+        </div>
+        <div class="storydivider"></div>
+        <div class="row">
+          <img src="https://d.newsweek.com/en/full/1581716/china-us-who-funding-freeze-donald-trump.jpg?w=95&h=95&f=78b5be837563c6923ac49d9833d816dd" class="col-auto" alt=""/>
+          <div class="col">
+            <div class="story2">
+              China Has 'Serious Concerns' Over Trump WHO Funding Freeze
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="signup d-md-none">
+          <div class="container letter">
+            <div class="row">
+              <div class="newsicon"></div>
+              <h3 class="sign col-8 pl-1">
+                  SIGN UP OUR NEWSLETTER
+              </h3>
+              <button class="btn btn-secondary col-5 offset-1" type="button">
+                SIGN UP
+              </button>
+              <h6 class="update col-11 pl-0 offset-1">Update your prefereces >></h6>
+            </div>
+          </div>
+      </div>
+
+      <article class="in-magazine">
+        <div class="row in-head-container d-flex align-items-center justify-content-center">
+          <div class="in-icon in-head"></div>
+          <h3 class="in-head">IN THE MAGAZINE</h3>
+        </div>
+        <div class="row">
+          <div class="cover col-md-3">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">APRIL 20 ISSUE</a>
+              </div>
+              <div>
+                <a href="#">
+                  <picture>
+                    <img src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg?w=360&h=480&q=90&f=83783f0b5161400b0bc0b3ea3e5912b4" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <h3 class="my-1 text-center">
+              <a href="#">SEE ALL FEATURES ></a>
+            </h3>
+          </div>
+
+          <div class="col-md-3 magazine magazine1">
+            <div class="wrap">
+              <div class="h-100">
+                <a href="#">
+                  <picture class="h-100">
+                    <img src="https://d.newsweek.com/en/full/1580527/parting-shot-uzo-aduba.jpg?w=466&h=311&l=42&t=46&q=90&f=6a64d33d4eb3ba47b218a84e43e68654" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <span class="mag-cat">DOWNTIME</span>
+            <span class="cat">CULTURE</span>
+            <h3 class="my-1 text-center">
+              <a href="#">Uzo Aduba as Trailblazer Shirley Chisholm in the Hulu Series 'Mrs. America'</a>
+            </h3>
+          </div>
+          <div class="col-md-3 magazine magazine2">
+            <div class="wrap">
+              <div class="h-100">
+                <a href="#">
+                  <picture class="h-100">
+                    <img src="https://d.newsweek.com/en/full/1580527/parting-shot-uzo-aduba.jpg?w=466&h=311&l=42&t=46&q=90&f=6a64d33d4eb3ba47b218a84e43e68654" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <span class="mag-cat">DOWNTIME</span>
+            <span class="cat">CULTURE</span>
+            <h3 class="my-1 text-center">
+              <a href="#">Uzo Aduba as Trailblazer Shirley Chisholm in the Hulu Series 'Mrs. America'</a>
+            </h3>
+          </div>
+          <div class="col-md-3 magazine magazine3">
+            <div class="wrap">
+              <div class="h-100">
+                <a href="#">
+                  <picture class="h-100">
+                    <img src="https://d.newsweek.com/en/full/1580527/parting-shot-uzo-aduba.jpg?w=466&h=311&l=42&t=46&q=90&f=6a64d33d4eb3ba47b218a84e43e68654" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <span class="mag-cat">DOWNTIME</span>
+            <span class="cat">CULTURE</span>
+            <h3 class="my-1 text-center">
+              <a href="#">Uzo Aduba as Trailblazer Shirley Chisholm in the Hulu Series 'Mrs. America'</a>
+            </h3>
+          </div>
+          <div class="col-md-3 magazine magazine4">
+            <div class="wrap">
+              <div class="h-100">
+                <a href="#">
+                  <picture class="h-100">
+                    <img src="https://d.newsweek.com/en/full/1580527/parting-shot-uzo-aduba.jpg?w=466&h=311&l=42&t=46&q=90&f=6a64d33d4eb3ba47b218a84e43e68654" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <span class="mag-cat">DOWNTIME</span>
+            <span class="cat">CULTURE</span>
+            <h3 class="my-1 text-center">
+              <a href="#">Uzo Aduba as Trailblazer Shirley Chisholm in the Hulu Series 'Mrs. America'</a>
+            </h3>
+          </div>
+          <div class="col-md-3 magazine magazine5">
+            <div class="wrap">
+              <div class="h-100">
+                <a href="#">
+                  <picture class="h-100">
+                    <img src="https://d.newsweek.com/en/full/1580527/parting-shot-uzo-aduba.jpg?w=466&h=311&l=42&t=46&q=90&f=6a64d33d4eb3ba47b218a84e43e68654" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <span class="mag-cat">DOWNTIME</span>
+            <span class="cat">CULTURE</span>
+            <h3 class="my-1 text-center">
+              <a href="#">Uzo Aduba as Trailblazer Shirley Chisholm in the Hulu Series 'Mrs. America'</a>
+            </h3>
+          </div>
+          <div class="col-md-3 magazine magazine6">
+            <div class="wrap">
+              <div class="h-100">
+                <a href="#">
+                  <picture class="h-100">
+                    <img src="https://d.newsweek.com/en/full/1580527/parting-shot-uzo-aduba.jpg?w=466&h=311&l=42&t=46&q=90&f=6a64d33d4eb3ba47b218a84e43e68654" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <span class="mag-cat">DOWNTIME</span>
+            <span class="cat">CULTURE</span>
+            <h3 class="my-1 text-center">
+              <a href="#">Uzo Aduba as Trailblazer Shirley Chisholm in the Hulu Series 'Mrs. America'</a>
+            </h3>
+          </div>
+          <div class="col-md-3 magazine magazine7">
+            <div class="wrap">
+              <div class="h-100">
+                <a href="#">
+                  <picture class="h-100">
+                    <img src="https://d.newsweek.com/en/full/1580527/parting-shot-uzo-aduba.jpg?w=466&h=311&l=42&t=46&q=90&f=6a64d33d4eb3ba47b218a84e43e68654" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <span class="mag-cat">DOWNTIME</span>
+            <span class="cat">CULTURE</span>
+            <h3 class="my-1 text-center">
+              <a href="#">Uzo Aduba as Trailblazer Shirley Chisholm in the Hulu Series 'Mrs. America'</a>
+            </h3>
+          </div>
+        </div>
+        
+      </article>
+
+      <article class="editor">
+        <div class="row in-head-container d-flex justify-content-center">
+          <div class="in-icon in-head"></div>
+          <h3 class="in-head">EDITOR'S PICK</h3>
+        </div>
+        <div class="row">
+          <div class="pick1 col-md-6 col-lg-3">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">NEWS</a>
+              </div>
+              <div>
+                <a href="#">
+                  <picture>
+                    <img src="https://d.newsweek.com/en/full/1581653/prince-harry.jpg?w=397&h=295&f=9ae770a9e4b68788a6c7f11cdf52d80f" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <h3 class="my-1">Prince Harry Drops HRH and Royal Surnames From Travel Brand</h3>
+            <div class="summary my-0 py-3">
+              Prince Harry has dropped "HRH" in documents for his eco-tourism company Travalyst but opted for his title Duke of Sussex, leaving out the royal surname Windsor.
+            </div>
+          </div>
+          <div class="pick2 col-md-6 col-lg-3">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">NEWS</a>
+              </div>
+              <div>
+                <a href="#">
+                  <picture>
+                    <img src="https://d.newsweek.com/en/full/1581653/prince-harry.jpg?w=397&h=295&f=9ae770a9e4b68788a6c7f11cdf52d80f" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <h3 class="my-1">Prince Harry Drops HRH and Royal Surnames From Travel Brand</h3>
+            <div class="summary my-0 py-3">
+              Prince Harry has dropped "HRH" in documents for his eco-tourism company Travalyst but opted for his title Duke of Sussex, leaving out the royal surname Windsor.
+            </div>
+          </div>
+          <div class="pick3 col-md-6 col-lg-3">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">NEWS</a>
+              </div>
+              <div>
+                <a href="#">
+                  <picture>
+                    <img src="https://d.newsweek.com/en/full/1581653/prince-harry.jpg?w=397&h=295&f=9ae770a9e4b68788a6c7f11cdf52d80f" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <h3 class="my-1">Prince Harry Drops HRH and Royal Surnames From Travel Brand</h3>
+            <div class="summary my-0 py-3">
+              Prince Harry has dropped "HRH" in documents for his eco-tourism company Travalyst but opted for his title Duke of Sussex, leaving out the royal surname Windsor.
+            </div>
+          </div>
+          <div class="pick4 col-md-6 col-lg-3">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">NEWS</a>
+              </div>
+              <div>
+                <a href="#">
+                  <picture>
+                    <img src="https://d.newsweek.com/en/full/1581653/prince-harry.jpg?w=397&h=295&f=9ae770a9e4b68788a6c7f11cdf52d80f" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <h3 class="my-1">Prince Harry Drops HRH and Royal Surnames From Travel Brand</h3>
+            <div class="summary my-0 py-3">
+              Prince Harry has dropped "HRH" in documents for his eco-tourism company Travalyst but opted for his title Duke of Sussex, leaving out the royal surname Windsor.
+            </div>
+          </div>
+          <div class="pick5 col-md-6 col-lg-3">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">NEWS</a>
+              </div>
+              <div>
+                <a href="#">
+                  <picture>
+                    <img src="https://d.newsweek.com/en/full/1581653/prince-harry.jpg?w=397&h=295&f=9ae770a9e4b68788a6c7f11cdf52d80f" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <h3 class="my-1">Prince Harry Drops HRH and Royal Surnames From Travel Brand</h3>
+            <div class="summary my-0 py-3">
+              Prince Harry has dropped "HRH" in documents for his eco-tourism company Travalyst but opted for his title Duke of Sussex, leaving out the royal surname Windsor.
+            </div>
+          </div>
+          <div class="pick6 col-md-6 col-lg-3">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">NEWS</a>
+              </div>
+              <div>
+                <a href="#">
+                  <picture>
+                    <img src="https://d.newsweek.com/en/full/1581653/prince-harry.jpg?w=397&h=295&f=9ae770a9e4b68788a6c7f11cdf52d80f" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <h3 class="my-1">Prince Harry Drops HRH and Royal Surnames From Travel Brand</h3>
+            <div class="summary my-0 py-3">
+              Prince Harry has dropped "HRH" in documents for his eco-tourism company Travalyst but opted for his title Duke of Sussex, leaving out the royal surname Windsor.
+            </div>
+          </div>
+          <div class="pick7 col-md-6 col-lg-3">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">NEWS</a>
+              </div>
+              <div>
+                <a href="#">
+                  <picture>
+                    <img src="https://d.newsweek.com/en/full/1581653/prince-harry.jpg?w=397&h=295&f=9ae770a9e4b68788a6c7f11cdf52d80f" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <h3 class="my-1">Prince Harry Drops HRH and Royal Surnames From Travel Brand</h3>
+            <div class="summary my-0 py-3">
+              Prince Harry has dropped "HRH" in documents for his eco-tourism company Travalyst but opted for his title Duke of Sussex, leaving out the royal surname Windsor.
+            </div>
+          </div>
+          <div class="pick8 col-md-6 col-lg-3">
+            <div class="wrap">
+              <div class="category">
+                <a href="#">NEWS</a>
+              </div>
+              <div>
+                <a href="#">
+                  <picture>
+                    <img src="https://d.newsweek.com/en/full/1581653/prince-harry.jpg?w=397&h=295&f=9ae770a9e4b68788a6c7f11cdf52d80f" alt=""/>
+                  </picture>
+                </a>
+              </div>
+            </div>
+            <h3 class="my-1">Prince Harry Drops HRH and Royal Surnames From Travel Brand</h3>
+            <div class="summary my-0 py-3">
+              Prince Harry has dropped "HRH" in documents for his eco-tourism company Travalyst but opted for his title Duke of Sussex, leaving out the royal surname Windsor.
+            </div>
+          </div>
+        </div>
+      </article>
+      
+      <article class="us">
+        <h3 class="block-title">
+            U.S.
+        </h3>
+        <div class="row">
+          <div class="us col-md-4">
+            <div class="wrap">
+              <div>
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1582778/president-donald-trump-china.jpg?w=397&h=265&f=0d5725de79ff56d3c2a6e7eab1443f11" alt=""/>
+                </picture>
+              </div>
+            </div>
+            <h3 class="my-1">
+              <a href="#">Trump Says Coronavirus 'Could Have Been Stopped in China'</a>
+            </h3>
+          </div>
+          <div class="us col-md-4">
+            <div class="wrap">
+              <div>
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1582778/president-donald-trump-china.jpg?w=397&h=265&f=0d5725de79ff56d3c2a6e7eab1443f11" alt=""/>
+                </picture>
+              </div>
+            </div>
+            <h3 class="my-1">
+              <a href="#">Trump Says Coronavirus 'Could Have Been Stopped in China'</a>
+            </h3>
+          </div>
+          <div class="col-md-4">
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1582755/colorado-gazette-concentration-camp-quarantine.jpg?w=95&h=95&f=472a6f5cc4514f70011cf7dc8b91f50b" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  Colorado Newspaper Demands End to Nazi Comparisons to COVID-19 Lockdown
+                </div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1582755/colorado-gazette-concentration-camp-quarantine.jpg?w=95&h=95&f=472a6f5cc4514f70011cf7dc8b91f50b" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  Colorado Newspaper Demands End to Nazi Comparisons to COVID-19 Lockdown
+                </div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1582755/colorado-gazette-concentration-camp-quarantine.jpg?w=95&h=95&f=472a6f5cc4514f70011cf7dc8b91f50b" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  Colorado Newspaper Demands End to Nazi Comparisons to COVID-19 Lockdown
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="world">
+        <h3 class="block-title">
+          World
+        </h3>
+        <div class="row">
+          <div class="world1 col-md-4">
+            <div class="wrap">
+              <div>
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1582781/dr-deborah-birx-trump.jpg?w=397&h=265&f=f1cbb3d9c8b45018a9e75d5364543079" alt=""/>
+                </picture>
+              </div>
+            </div>
+            <h3 class="my-1">
+              <a href="#">Dr. Deborah Birx Calls China's Low Coronavirus Death Rate 'Unrealistic'</a>
+            </h3>
+          </div>
+          <div class="world2 col-md-4">
+            <div class="wrap">
+              <div>
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1582781/dr-deborah-birx-trump.jpg?w=397&h=265&f=f1cbb3d9c8b45018a9e75d5364543079" alt=""/>
+                </picture>
+              </div>
+            </div>
+            <h3 class="my-1">
+              <a href="#">Dr. Deborah Birx Calls China's Low Coronavirus Death Rate 'Unrealistic'</a>
+            </h3>
+          </div>
+          <div class="col-md-4">
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1582506/french-president-emmanuel-macron-wears-face-mask.jpg?w=95&h=95&f=4251d12718eeeae91a038227fe29f4c4" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  Macron Says It Is 'Naive' to Claim China Handled Coronavirus 'Much Better'
+                </div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1582506/french-president-emmanuel-macron-wears-face-mask.jpg?w=95&h=95&f=4251d12718eeeae91a038227fe29f4c4" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  Macron Says It Is 'Naive' to Claim China Handled Coronavirus 'Much Better'
+                </div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1582506/french-president-emmanuel-macron-wears-face-mask.jpg?w=95&h=95&f=4251d12718eeeae91a038227fe29f4c4" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  Macron Says It Is 'Naive' to Claim China Handled Coronavirus 'Much Better'
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+
+      <article class="business">
+        <h3 class="block-title">
+          Business
+        </h3>
+        <div class="row">
+          <div class="business1 col-md-4">
+            <div class="wrap">
+              <div>
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1581407/kenya-africa-debt-coronavirus-china-beijing.jpg?w=397&h=265&f=3f1a3279a8b38d73464dd52df5cea594" alt=""/>
+                </picture>
+              </div>
+            </div>
+            <h3 class="my-1">
+              <a href="#">China Would Consider Debt Relief for Africa Over Coronavirus</a>
+            </h3>
+          </div>
+          <div class="business2 col-md-4">
+            <div class="wrap">
+              <div>
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1581407/kenya-africa-debt-coronavirus-china-beijing.jpg?w=397&h=265&f=3f1a3279a8b38d73464dd52df5cea594" alt=""/>
+                </picture>
+              </div>
+            </div>
+            <h3 class="my-1">
+              <a href="#">China Would Consider Debt Relief for Africa Over Coronavirus</a>
+            </h3>
+          </div>
+          <div class="col-md-4">
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1581297/apple-watches.webp?w=95&h=95&f=2b235856e7fd376250fc8a51e764113c" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  NFL 'Virtual Offseason' Would Allow Teams to Send Apple Watches To Players
+                </div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1581297/apple-watches.webp?w=95&h=95&f=2b235856e7fd376250fc8a51e764113c" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  NFL 'Virtual Offseason' Would Allow Teams to Send Apple Watches To Players
+                </div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1581297/apple-watches.webp?w=95&h=95&f=2b235856e7fd376250fc8a51e764113c" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  NFL 'Virtual Offseason' Would Allow Teams to Send Apple Watches To Players
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="tech-science">
+        <h3 class="block-title">
+          Tech & Science
+        </h3>
+        <div class="row">
+          <div class="tech1 col-md-4">
+            <div class="wrap">
+              <div>
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1582583/flooding-florida.jpg?w=397&h=265&f=219c2fd8a6ec516ff1c56d02fa12d530" alt=""/>
+                </picture>
+              </div>
+            </div>
+            <h3 class="my-1">
+              <a href="#">Some Coastal U.S. Cities Could Experience Flooding Every Day by 2100</a>
+            </h3>
+          </div>
+          <div class="tech2 col-md-4">
+            <div class="wrap">
+              <div>
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1582583/flooding-florida.jpg?w=397&h=265&f=219c2fd8a6ec516ff1c56d02fa12d530" alt=""/>
+                </picture>
+              </div>
+            </div>
+            <h3 class="my-1">
+              <a href="#">Some Coastal U.S. Cities Could Experience Flooding Every Day by 2100</a>
+            </h3>
+          </div>
+          <div class="col-md-4">
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1582525/5g-mobile-phone-mast.jpg?w=95&h=95&f=6d8afc67116927d55477e6eb18816f92" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  Facebook Groups Spreading 5G Coronavirus Conspiracies Call for Mast Attacks
+                </div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1582525/5g-mobile-phone-mast.jpg?w=95&h=95&f=6d8afc67116927d55477e6eb18816f92" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  Facebook Groups Spreading 5G Coronavirus Conspiracies Call for Mast Attacks
+                </div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1582525/5g-mobile-phone-mast.jpg?w=95&h=95&f=6d8afc67116927d55477e6eb18816f92" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  Facebook Groups Spreading 5G Coronavirus Conspiracies Call for Mast Attacks
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="culture">
+        <h3 class="block-title">
+          Culture
+        </h3>
+        <div class="row">
+          <div class="culture1 col-md-4">
+            <div class="wrap">
+              <div>
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1582740/john-krasinski.jpg?w=397&h=265&f=cd4880108d1f379ef012a395645b91ae" alt=""/>
+                </picture>
+              </div>
+            </div>
+            <h3 class="my-1">
+              <a href="#">John Krasinski Holds Virtual Prom With Guests Billie Eilish, Jonas Brothers</a>
+            </h3>
+          </div>
+          <div class="world2 col-md-4">
+            <div class="wrap">
+              <div>
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1582740/john-krasinski.jpg?w=397&h=265&f=cd4880108d1f379ef012a395645b91ae" alt=""/>
+                </picture>
+              </div>
+            </div>
+            <h3 class="my-1">
+              <a href="#">John Krasinski Holds Virtual Prom With Guests Billie Eilish, Jonas Brothers</a>
+            </h3>
+          </div>
+          <div class="col-md-4">
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1582615/queer-eye.jpg?w=95&h=95&f=c94f59b0949bde550bc4586b2d0b6be7" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  20 Netflix Shows We Want to See Return ASAP
+                </div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1582615/queer-eye.jpg?w=95&h=95&f=c94f59b0949bde550bc4586b2d0b6be7" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  20 Netflix Shows We Want to See Return ASAP
+                </div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1582615/queer-eye.jpg?w=95&h=95&f=c94f59b0949bde550bc4586b2d0b6be7" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  20 Netflix Shows We Want to See Return ASAP
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="sports">
+        <h3 class="block-title">
+          Sports
+        </h3>
+        <div class="row">
+          <div class="sport1 col-md-4">
+            <div class="wrap">
+              <div>
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1555119/giannis-antetokounmpo-lebron-james.jpg?w=397&h=265&f=feb39fe451a090c3e0ea573d13efb719" alt=""/>
+                </picture>
+              </div>
+            </div>
+            <h3 class="my-1">
+              <a href="#">NBA to Withhold 25 Percent of Players' Salaries From Next Month</a>
+            </h3>
+          </div>
+          <div class="sport2 col-md-4">
+            <div class="wrap">
+              <div>
+                <picture>
+                  <img src="https://d.newsweek.com/en/full/1555119/giannis-antetokounmpo-lebron-james.jpg?w=397&h=265&f=feb39fe451a090c3e0ea573d13efb719" alt=""/>
+                </picture>
+              </div>
+            </div>
+            <h3 class="my-1">
+              <a href="#">NBA to Withhold 25 Percent of Players' Salaries From Next Month</a>
+            </h3>
+          </div>
+          <div class="col-md-4">
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1582709/kobe-gianna-bryant.jpg?w=95&h=95&f=5000c570685058d0b2ff09b10616539b" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  Gianna Bryant Among the Honorary WNBA Draft Picks
+                </div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1582709/kobe-gianna-bryant.jpg?w=95&h=95&f=5000c570685058d0b2ff09b10616539b" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  Gianna Bryant Among the Honorary WNBA Draft Picks
+                </div>
+              </div>
+            </div>
+            <div class="storydivider"></div>
+
+            <div class="row mt-2">
+              <div class="media">
+                <img src="https://d.newsweek.com/en/full/1582709/kobe-gianna-bryant.jpg?w=95&h=95&f=5000c570685058d0b2ff09b10616539b" alt=""/>
+              </div>
+              <div class="media-body px-2">
+                <div class="story2">
+                  Gianna Bryant Among the Honorary WNBA Draft Picks
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="storydivider"></div>
+      </article>
+
+      <div class="weekly">
+        <div class="row">
+          <div class="d-md-block col-lg-8">
+            <div class="text">
+              SUBSCRIBE
+            </div>
+          </div>
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="text">NEWSLETTER</div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 col-lg-8 mag">
+            <div class="row">
+              <div class="col-md-6 col-12 pr-md-0 mr-md-0">
+                <article class="text-center weekly-special h-100 p-4">
+                  <h2 class="d-none">n</h2>
+                  <div class="special-img">
+                    <div class="mag-thumb prev">
+                      <img class="rel-img" src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg?w=170&q=95&f=b4884b3be2e05e586232cc3f3d569aa8" alt=""/>
+                    </div>
+
+                    <div class="mag-thumb current">
+                      <img src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=170&q=95&f=1a0d984a3141e5762557f214ca2a1540" alt=""/>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="col-md-6 col-12 pl-md-0 ml-md-0">
+                <article class="text-center text-md-left weekly-special h-100 p-4">
+                  <h2 class="d-none">n</h2>
+                  <div class="story2 text-center text-md-left p-4">
+                    In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
+                  </div> 
+                  <div class="text-muted text-center text-md-left p-4 my-0">
+                    All Access + Weekly Delivery. 
+                    Choose A Membership That's Perfect for You!
+                  </div>
+                  <button type="button" class="btn last-btn p-2 my-2 ml-4">SUBSCRIBE ></button>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4 ltr">
+            <div class="text d-lg-none">NEWSLETTER</div>
+            <div class="row">
+              <div class="col-12 col-md-5 pr-md-0 mr-md-0">
+                <div class="phone-img"></div>
+              </div>
+              <div class="col-12 col-md-7 h-100 pl-md-0 ml-md-0">
+                <article class="text-center text-md-left text-lg-center border border-muted h-md-100 pl-md-3 phone">
+                  <h1 class="d-none">a</h1>
+                  <div class="story2 text-center text-md-left py-2 p-lg-4 text-lg-center">The Starting 5</div>
+                  <div class="text-muted text-center text-md-left text-lg-center py-1 p-lg-4 my-0">Take back your inbox.
+                    Sign up for our newsletter and start
+                    making sense of the world around you.</div>
+                  <button type="button" class="btn last-btn p-2 my-2"> SIGN UP ></button>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="storydivider"></div>
+    </main>
+
+    <footer class="my-4">
+      <div class="container-fluid">
+        <div class="row w-100">
+          <div class="col-auto nwlogo col-lg-order">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+              <g>
+              <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+              </g>
+            </svg>
+          </div>
+          <div class="col-12 col-md-3 p-3 ml-3 align-items-end copyright">© 2020 Newsweek</div>
+          <div class="col-12 col-md-4 ml-auto d-flex justify-content-around align-items-center bottom-icons">
+            <i class="fab fa-facebook-square ml-3"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+          </div>
+        </div>
+      </div>
+      <div class="storydivider mx-3"></div>
+      <nav class="m-3">
+        <ul class="d-flex flex-wrap justify-content-start">
+          <li class="first">Editions:</li>
+          <li class="px-3"><a class="px-3" href="#">U.S. Edition</a></li>
+          <li class="divider"></li>
+          <li class="p-0"><a class="px-3" href="#">日本</a></li>
+          <li class="divider"></li>
+          <li class="p-0"><a class="px-3" href="#">Pakistan</a></li>
+          <li class="divider"></li>
+          <li class="p-0"><a class="px-3" href="#">Polska</a></li>
+          <li class="divider"></li>
+          <li class="p-0"><a class="px-3" href="#">România</a></li>
+        </ul>
+        <ul class="d-flex flex-wrap justify-content-start mx-o last-footer">
+          <li class="p-0 pr-2"><a class="px-1" href="#">Health</a></li>
+          <li class="divider"></li>
+          <li class="p-0 pr-2"><a class="px-1" href="#">About Us</a></li>
+          <li class="divider"></li>
+          <li class="p-0 px-2"><a class="px-1" href="#">Corrections</a></li>
+          <li class="divider"></li>
+          <li class="p-0 px-2"><a class="px-1" href="#">Contact Us</a></li>
+          <li class="divider"></li>
+          <li class="p-0 px-2"><a class="px-1" href="#">Editorial Guidelines</a></li>
+          <li class="divider"></li>
+          <li class="p-0 px-2"><a class="px-1" href="#">Advertise</a></li>
+          <li class="divider"></li>
+          <li class="p-0 px-2"><a class="px-1" href="#">Copyright</a></li>
+          <li class="divider"></li>
+          <li class="p-0 px-2"><a class="px-1" href="#">Terms & Conditions</a></li>
+          <li class="divider"></li>
+          <li class="p-0 px-2"><a class="px-1" href="#">Privacy Policy</a></li>
+          <li class="divider"></li>
+          <li class="p-0 px-2"><a class="px-1" href="#">Cookie Policy</a></li>
+          <li class="divider"></li>
+          <li class="p-0 px-2"><a class="px-1" href="#">Terms of Sale</a></li>
+          <li class="divider"></li>
+          <li class="p-0 px-2"><a class="px-1" href="#">Archive</a></li>
+          <li class="divider"></li>
+          <li class="p-0 px-2"><a class="px-1" href="#">Announcements</a></li>
+          <li class="divider"></li>
+          <li class="p-0 px-2"><a class="px-1" href="#">Consent preferences</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
